@@ -1,1 +1,1 @@
-Python Jupyter Notebook
+Plots. Python tutorials. Jupyter Notebook. Math XYPlots.
