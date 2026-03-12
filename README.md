@@ -5,10 +5,29 @@ To create a Jupyter notebook, follow these steps:
   3. Type "jupyter notebook" in it.
   4. The browser with the Jupyter system web interface will launch.
   5. Click the "New" button and select "Python3 (pykernel)" from the drop-down menu.
-  6. Enter the code in the cell:
-     print("Hello, world!!!")
-     print("Test Notebook")
-  7. Click the "Run" button (black arrow) on the toolbar.
+  6. Click the "Add" button (the "+" sign) on the toolbar to create 2 more cells.
+  7. In cell #1, enter the code:
+     import matplotlib.pyplot as plt
+     import numpy as np
+     x = np.arange(-4,4,0.1)
+     y = x ** 2 
+     plt.plot(y)
+  8. In cell №2, enter the code:
+     import matplotlib.pyplot as plt
+     import numpy as np
+     x = np.arange(-4,4,0.1)
+     y = x
+     plt.plot(y)
+  9. In cell #3, enter the code:
+     import matplotlib.pyplot as plt
+     import numpy as np
+     x = np.arange(-10, -0.5, 0.1)
+     y = 1 / x
+     plt.plot(y)
+     x = np.arange(0.5, 10, 0.1)
+     y = 1 / x
+     plt.plot(y)
+  10. Click the "Run" button (black arrow) on the toolbar.
 
 HelloWorld. Занятия Python. Блокноты Jupyter. Математика. Двухмерные графики функций.
 Для создания блокнота Jupyter нужно выполнить следующие действия:
